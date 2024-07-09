@@ -1,3 +1,8 @@
+#Jobify
+This is a SAAS Platform both for Job Seeker's and Company.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
