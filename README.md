@@ -1,7 +1,6 @@
-#Jobify
+# Jobify
+
 This is a SAAS Platform both for Job Seeker's and Company.
-
-
 
 # Getting Started with Create React App
 
