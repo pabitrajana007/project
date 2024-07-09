@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p>&copy; 2024 Jobify. All rights reserved.</p>
+          <p>&copy; COPYRIGHT© MEGA.GROUP. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>
