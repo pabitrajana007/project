@@ -3,53 +3,89 @@ import { TiTick } from "react-icons/ti";
 
 function Form() {
   return (
-    <div className='w-screen h-screen bg-green-100 flex justify-center items-center '> 
+    <div className='w-screen h-screen bg-sky-100 flex justify-center items-center '> 
       <div className='lg:w-3/4 md:w-2/3 sm:w-11/12 w-full p-4 relative'>
         <div className='flex justify-start mb-4'>
-          <TiTick className='bg-green-500 absolute -left-1 text-white rounded-full' size={70}/>
+          <TiTick className='bg-blue-500 absolute -left-1 text-white rounded-md' size={70}/>
         </div>
-        <div className='bg-slate-300  rounded-lg shadow-md'>
-          <form className=' p-6 rounded-lg'>
+        <div className='bg-slate-300  rounded-md shadow-md'>
+          <form className=' p-6 rounded-md'>
             <h1 className='text-2xl font-bold mb-4'>FORM B</h1>
             <div className='flex flex-col space-y-4  '>
-              <div className=' p-4 rounded-lg flex flex-col  border-2'>
-                <p className='text-red-600 font-bold mb-4'>Personal Information</p>
-                <div className='flex flex-col space-y-2'>
-                  <label htmlFor='name'>Name *</label>
-                  <input type='text' placeholder='Enter name' id='name' name='name' className='rounded-full indent-2 p-2 border'/>
-                  <label>Gender *</label>
-                  <div className='flex space-x-4  justify-center'>
-                    <div className='flex items-center  space-x-1'>
-                      <input type='radio' id='male' name='gender' className='mt-1'/>
-                      <label htmlFor='male'>Male</label>
-                    </div>
-                    <div className='flex items-center space-x-1'>
-                      <input type='radio' id='female' name='gender' className='mt-1'/>
-                      <label htmlFor='female'>Female</label>
-                    </div>
-                    <div className='flex items-center space-x-1'>
-                      <input type='radio' id='others' name='gender' className='mt-1'/>
-                      <label htmlFor='others'>Others</label>
-                    </div>
+              <div className=' p-4 rounded-md flex flex-col  border-2'>
+                <p className='text-blue-600 font-bold mb-4'>Personal Information</p>
+                <div className='mx-auto table text-left flex flex-col space-y-2'>
+                  <div className='my-2 table-row display:flex'>
+                    <label htmlFor='name' className='table-cell'>Name *</label>
+                    <input type='text' placeholder='Enter name' id='name' name='name' className='table-cell w-40 rounded-md indent-2 p-1 border'/>
+                  </div>
+                  <div className='my-2 table-row display:flex'>
+                    <label htmlfor="jobs" className='table-cell'>Gender *</label>
+                    <select type='text' placeholder='Enter gender' id='gender' name='gender' className='table-cell w-40 rounded-md indent-2 p-1 border' required>
+                      <option value="select">Select Gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="others">Others</option>
+                    </select>
                   </div>
                 </div>
               </div>
 
-              <div className=' p-4 rounded-lg'>
-                <p className='text-red-600 font-bold mb-4'>Contact Details</p>
-                <div className='flex flex-col space-y-2'>
-                  <label htmlFor='email'>Email *</label>
-                  <input type='email' placeholder='Enter email' id='email' name='email' className='rounded-xl indent-2 p-2 border'/>
-                  <label htmlFor='address'>Address *</label>
-                  <input type='text' placeholder='Enter address' id='address' name='address' className='rounded-xl indent-2 p-2 border'/>
-                  <label htmlFor='country'>Country *</label>
-                  <input type='text' placeholder='Enter country' id='country' name='country' className='rounded-xl indent-2 p-2 border'/>
-                  <label htmlFor='zip_code'>Zip Code *</label>
-                  <input type='text' placeholder='Enter pin code' id='zip_code' name='zip_code' className='rounded-xl indent-2 p-2 border'/>
+              <div className='p-2 rounded-md'>
+                <p className='text-blue-600 font-bold mb-4'>Contact Details</p>
+                <div className='mx-auto table text-left flex flex-col space-y-2'>
+                  <div className='table-row'>
+                    <label htmlFor='email' className='table-cell'>Email*</label>
+                    <input type='email' placeholder='Enter email' id='email' name='email' className='table-cell rounded-md indent-2  p-1 border' required/>
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlFor='address' className='table-cell'>Permanent Address *</label>
+                    <input type='text' placeholder='Enter address' id='address' name='address' className='table-cell rounded-md indent-2 p-1 border' required/>
+
+                  </div>
+                  
+                  <div className='table-row display:flex'>
+                    <label htmlFor='address' className='table-cell'>Current Address </label>
+                    <input type='text' placeholder='Enter address' id='address' name='address' className='table-cell rounded-md indent-2 p-1 border'/>
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlFor='country' className='table-cell'>Country *</label>
+                    <input type='text' placeholder='Enter country' id='country' name='country' className='table-cell rounded-md indent-2 p-1 border' required/>
+                  
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlFor='tel' className='table-cell'>Mobile Number *</label>
+                    <input type='tel' placeholder='Enter mobile number' id='number' name='number' className='table-cell rounded-md indent-2 p-1 border' required/> 
+                  
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlFor='occupation' className='table-cell'>Occupation *</label>
+                    <input type='text' placeholder='Enter occupation' id='occupation' name='occupation' className='table-cell rounded-md indent-2 p-1 border' required/> 
+                  
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlFor='education' className='table-cell'>Educational Qualifications *</label>
+                    <input type='text' placeholder='Enter educational qualifications' id='education' name='education' className='table-cell rounded-md indent-2 p-1 border' required/> 
+                  
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlFor='nationality' className='table-cell'>Nationality *</label>
+                    <input type='text' placeholder='Enter nationality' id='nationality' name='nationality' className='table-cell rounded-md indent-2 p-1 border' required/> 
+                  
+                  </div>
+                  <div className='table-row display:flex'>
+                    <label htmlfor="jobs" className='table-cell'>Prefered Job</label>
+                    <select type='text' placeholder='Enter Job' id='job' name='job' className='table-cell rounded-md indent-2 p-1 border' required>
+                      <option value="select" >Select Job</option>
+                      <option value="hardware Engineer">Hardware Engineer</option>
+                      <option value="system engineer">System Engineer</option>
+                      <option value="software engineer">Software Engineer</option>
+                      <option value="care giver">Care Giver</option>
+                    </select>
+                  </div>
                 </div>
               </div>
-
-              <button type='submit' className='bg-blue-500 text-white py-2 px-4 rounded-full'>Submit</button>
+              <button type='submit' className='bg-blue-500 text-white py-2 px-4 rounded-md'>Submit</button>
             </div>
           </form>
         </div>
