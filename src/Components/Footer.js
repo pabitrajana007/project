@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-sky-800 text-white py-8">
+    <footer className="bg-sky-600 text-white py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4"> 
           <div className="w-full md:w-1/3 px-4">
@@ -24,9 +24,9 @@ const Footer = () => {
           <div className="w-full md:w-1/3 px-4 mt-8 md:mt-0">
             <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
             <ul>
-              <li><a href="mailto:Aryan@gmail.com" className="hover:underline">Email: Aryan@gmail.com</a></li>
-              <li><a href="tel:+911406826" className="hover:underline">Phone: +911406826</a></li>
-              <li><a href="#" className="hover:underline">Netaji Subhash Place, New Delhi</a></li>
+              <li><a href="mailto:@gmail.com" className="hover:underline">Email: @email.com</a></li>
+              <li><a href="tel:+81-354582311" className="hover:underline">Phone: +81-354582311</a></li>
+              <li><a href="#" className="hover:underline">14F, Shibuya Markcity West<br></br> 1-12-1 Dogenzaka Shibuya-ku, Tokyo, Japan</a></li>
             </ul>
           </div>
         </div>
