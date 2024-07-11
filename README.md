@@ -24,5 +24,7 @@ Change directory to backend, you can run:
 ### `json-server --watch db.json --port 3001`
 
 ## Available Scripts - Run Requirements File
-### `pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```bash
 
