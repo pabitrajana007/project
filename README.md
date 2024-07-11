@@ -28,7 +28,7 @@ cd backend
 npm install -g json-server
 ```
 ```bash
-### `json-server --watch db.json --port 3001`
+json-server --watch db.json --port 3001
 ```
 
 ## Available Scripts - Run Requirements File
