@@ -22,3 +22,7 @@ Change directory to backend, you can run:
 ### `cd backend`
 ### `npm install -g json-server`
 ### `json-server --watch db.json --port 3001`
+
+## Available Scripts - Run Requirements File
+### `pip install -r requirements.txt`
+
