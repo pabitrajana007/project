@@ -1,6 +1,6 @@
 # Jobify
 
-This is a SAAS Platform both for Job Seeker's and Company.
+This is a SAAS Platform both for Job Seeker's and Company. Employee Management Tool (SAAS Platform)
 
 # Getting Started with Create React App
 
