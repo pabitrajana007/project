@@ -26,5 +26,4 @@ Change directory to backend, you can run:
 ## Available Scripts - Run Requirements File
 ```bash
 pip install -r requirements.txt
-```bash
 
