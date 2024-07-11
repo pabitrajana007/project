@@ -10,7 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -19,9 +21,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Change directory to backend, you can run:
 
-### `cd backend`
-### `npm install -g json-server`
+```bash
+cd backend
+```
+```bash
+npm install -g json-server
+```
+```bash
 ### `json-server --watch db.json --port 3001`
+```
 
 ## Available Scripts - Run Requirements File
 ```bash
