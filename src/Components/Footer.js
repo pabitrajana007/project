@@ -8,15 +8,15 @@ const Footer = () => {
           <div className="w-full md:w-1/3 px-4">
             <h2 className="text-lg font-semibold mb-4">Company</h2>
             <ul>
-              <li><a href="#" className="hover:underline">About Us</a></li>
-              <li><a href="#" className="hover:underline">Careers</a></li>
-              <li><a href="#" className="hover:underline">Press</a></li>
+              <li><a href="https://www.mega.co.jp/en/" className="hover:underline">About Us</a></li>
+              <li><a href="https://www.mega.co.jp/en/service/sup_human.html" className="hover:underline">Careers</a></li>
+              <li><a href="https://www.mega.co.jp/en/about/companys-outline/" className="hover:underline">Press</a></li>
             </ul>
           </div>
           <div className="w-full md:w-1/3 px-4 mt-8 md:mt-0">
             <h2 className="text-lg font-semibold mb-4">Resources</h2>
             <ul>
-              <li><a href="#" className="hover:underline">Blog</a></li>
+              <li><a href="https://www.mega.co.jp/en/about/companys-outline/" className="hover:underline">Blog</a></li>
               <li><a href="#" className="hover:underline">Help Center</a></li>
               <li><a href="#" className="hover:underline">Privacy Policy</a></li>
             </ul>
