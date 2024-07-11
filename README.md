@@ -20,5 +20,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Change directory to backend, you can run:
 
 ### `cd backend`
-### `npm install -g json-server json-server --watch db.json --port 3001`
+### `npm install -g json-server`
 ### `json-server --watch db.json --port 3001`
