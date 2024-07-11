@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
-import { Route, Routes } from "react-router";
 import Bannar from "./Components/Bannar";
 import Hero from "./Components/Hero";
+import EmployeeDatabase from "./Components/EmployeeDatabase"; // Import the EmployeeDatabase component
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,7 @@ function App() {
           }
         />
         <Route path="/fillForm" element={<Form />} />
+        <Route path="/employee-database" element={<EmployeeDatabase />} /> {/* Add Route for EmployeeDatabase */}
       </Routes>
       <Footer />
     </div>
