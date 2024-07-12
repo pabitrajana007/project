@@ -29,7 +29,7 @@ function EmployeeDatabase() {
                 <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Gender</th>
                 <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Address</th>
                 <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Country</th>
-                <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Mobile</th>
+                <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">tel</th>
                 <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Occupation</th>
                 <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Education</th>
                 <th className="px-6 py-3 border-r text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">Nationality</th>
