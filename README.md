@@ -31,7 +31,8 @@ npm install -g json-server
 json-server --watch db.json --port 3001
 ```
 
-## Available Scripts - Run Requirements File
+## Available Scripts - Run Dependency
 ```bash
-pip install -r requirements.txt
+npm install axios
+```
 
