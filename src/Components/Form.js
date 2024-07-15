@@ -121,9 +121,19 @@ function Form() {
                     <label htmlFor='education' className='table-cell'>Educational Qualifications *</label>
                     <input type='text' placeholder='Enter educational qualifications' id='education' name='education' className='table-cell rounded-md indent-2 p-1 border' onChange={handleChange} value={formData.education} required />
                   </div>
-                  <div className='table-row'>
+                  {/* <div className='table-row'>
                     <label htmlFor='nationality' className='table-cell'>Nationality *</label>
                     <input type='text' placeholder='Enter nationality' id='nationality' name='nationality' className='table-cell rounded-md indent-2 p-1 border' onChange={handleChange} value={formData.nationality} required />
+                  </div> */}
+                  <div className='table-row'>
+                    <label htmlFor='nationality' className='table-cell'>Nationality *</label>
+                    <select id='nationality' name='nationality' className='table-cell rounded-md indent-2 p-1 border' onChange={handleChange} value={formData.nationality} required>
+                      <option value=''>Select </option>
+                      <option value='japan'>Japan</option>
+                      <option value='india'>India</option>
+                      <option value='nepal'>Nepal</option>
+                      <option value='sri lanka'>Sri Lanka</option>
+                    </select>
                   </div>
                   <div className='table-row'>
                     <label htmlFor='job' className='table-cell'>Preferred Job</label>
