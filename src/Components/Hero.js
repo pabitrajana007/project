@@ -7,8 +7,8 @@ function Hero() {
       <div className="flex justify-around">
         <div className="flex justify-center flex-col items-center">
           <img
-            className="w-[30%] h-[50%] mt-4"
-            src="QR-CODE.jpg"
+            className="w-[50%] h-[50%] mt-4"
+            src="White Lavender Simple Light Fashion QR Code Business Card.png"
             alt="qrcode"
           />
           <div>
